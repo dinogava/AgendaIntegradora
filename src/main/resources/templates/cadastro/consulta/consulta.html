@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Consulta de Contatos</title>
+</head>
+<body>
+<h2>Consulta de Contatos</h2>
+<table>
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>Descrição</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr th:each="contato : ${contatos}">
+    <td th:text="${contato.id}"></td>
+    <td th:text="${contato.descri}"></td>
+  </tr>
+  </tbody>
+</table>
+</body>
+</html>
