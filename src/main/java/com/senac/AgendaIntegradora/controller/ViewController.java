@@ -31,4 +31,35 @@ public class ViewController {
         model.addAttribute("contatos", contatoRepository.findAll());
         return "consulta/consulta";
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
